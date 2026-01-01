@@ -1,7 +1,7 @@
 #include <iostream>
+#include "MYIO.H"
 
-int readNumber();
-void writeAnswer(int answer);
+
 
 int main()
 {
