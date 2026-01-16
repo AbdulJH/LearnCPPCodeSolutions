@@ -12,8 +12,11 @@ int main()
 	std::cout << "Enter a single character: ";
 	char userInput{};
 	std::cin >> userInput;
+	int asciNum = userInput;
 
-	std::cout << "You entered " << "'" << userInput << "', which has ASCII CODE " << static_cast<double>(userInput);
+	std::cout << "You entered " << "'" << userInput << "', which has ASCII CODE " << static_cast<int>(userInput);
+	std::cout << "You entered " << "'" << userInput << "', which has ASCII CODE " << asciNum;
+
 
 
 
